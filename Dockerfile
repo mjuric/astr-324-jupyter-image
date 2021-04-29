@@ -26,6 +26,9 @@ RUN conda install -c conda-forge astropy aplpy astroml
 # Solar system
 RUN conda install -c conda-forge openorb
 
+# Lecture 6 (MCMC)
+RUN conda install -c conda-forge pymc3 emcee
+
 # Hide system kernels from nb_conda_kernels
 # Place user-defined conda environments into the user's directory
 RUN printf '\
