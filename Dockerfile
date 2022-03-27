@@ -31,7 +31,7 @@ RUN conda install -c conda-forge pymc3 emcee
 
 # Lecture 10 (ML)
 RUN conda install mamba -c conda-forge
-RUN mamba install pytorch -y
+# RUN mamba install pytorch -y # <-- broken as of 2022-05-27
 
 # Hide system kernels from nb_conda_kernels
 # Place user-defined conda environments into the user's directory
